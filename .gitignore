@@ -1,4 +1,15 @@
+# Node modules (riesig, muss nicht ins Repo)
 node_modules/
+
+# Umgebungsvariablen / Geheimnisse
 .env
-.env.local
-.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Sonstiger Build/Cache
+dist/
+build/
